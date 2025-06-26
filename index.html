@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script type="module" src="./src/main.js" defer></script>
+  </head>
+  <body>
+    <header class="pt-[10px] pb-[20px] sticky top-0">
+      <div class="main-head w-[1320px] h-[70px] ml-[100px] rounded-[50px] border shadow-xl/20 text-center relative">
+        <div class=".main-head-cont p-[15px] flex">
+          <div class="portfolio-logo text-[22px] font-bold mt-[4px] ml-[6px]">
+            <span>Portfolio</span>
+          </div>
+          <nav id="navi" class="dropdown mt-[7px] ml-[200px] flex">
+            <button id="drop" data-bs-toggle="dropdown" class="bi bi-list pl-[20px] pb-[10px] text-[17px] hover:text-[#ff0000]"></button>
+            <ul id="menus" class="dropdown-menu text-[17px] cursor-pointer font-medium flex">
+              <li class="dropdown-item"> <a href="#homePage"><span class="dropdown-item-text hover:text-[#ff0000]">Home</span> </a></li>
+              <li class="dropdown-item"> <a href="#aboutPage"> <span class="dropdown-item-text ml-[40px] hover:text-[#ff0000]">About</span></a> </li>
+              <li class="dropdown-item"><a href="#resume"><span class="dropdown-item-text ml-[40px] hover:text-[#ff0000]">Resume</span></a> </li>
+              <li class="dropdown-item"><a href="#Personal-Projects"><span class="dropdown-item-text ml-[40px] hover:text-[#ff0000]">Projects</span></a></li>
+              <li class="dropdown-item"> <a href="#certifications"> <span class="dropdown-item-text ml-[40px] hover:text-[#ff0000]">Certification</span> </a> </li>
+              <li class="dropdown-item"><a href="#Contact"><span class="dropdown-item-text ml-[40px] hover:text-[#ff0000]">Contact</span></a></li>
+            </ul>
+          </nav>
+          <div class="media-links flex ml-[300px] mt-[6px] text-[#737373] cursor-pointer">
+            <button id="clickLinkedin" class="bi bi-linkedin hover:text-[#ff0000] text-[17px] pb-[10px]"></button>
+            <button id="clickGithub" class="bi bi-github pl-[20px] pb-[10px] text-[17px] hover:text-[#ff0000]"></button>
+            <button id="clickInstagram" class="bi bi-instagram pl-[20px] pb-[10px] text-[17px] hover:text-[#ff0000]"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="mt-[10px]">
+
+    </section>
+    <footer>
+      <a class="scroll-top" href="#homePage"> <span class="bi bi-arrow-up flex"></span> </a>
+    </footer>
+  </body>
+</html>
